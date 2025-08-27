@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Aman Singh">Aman Singh</h1>
+                    <p class="title">Software Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:richard@example.com" class="contact-link">amaninternsingh2003@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">7439064694</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">March 05    , 2003</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Dehradun , Uttarakhand</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://github.com/amans2003" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.linkedin.com/in/aman-singh-9a8233254/" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/its_singh_05/" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Project</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Gallery</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Hi, I'm Aman Singh. I'm a passionate full-stack web developer with a strong interest in building user-friendly and secure web applications. I work mainly with the MERN stack (MongoDB, Express, React, Node.js) and love turning ideas into real working projects. I've built apps like a Voting System with authentication, an AI-powered content tool using Google Gemini API, and more. I'm always eager to learn, build, and grow in the world of tech.</p>
+                    <!-- <p>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p> -->
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Full Stack Development</h4>
+                                <p class="service-item-text">End-to-end development using MERN stack (MongoDB, Express, React, Node.js).</p>
+                            </div>
+                            
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">API Integration</h4>
+                                <p class="service-item-text">Building and integrating RESTful & third-party APIs for dynamic apps.</p>
+                            </div>
+                            
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <ion-icon name="color-palette-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">UI/UX Design</h4>
+                                <p class="service-item-text">Designing clean, modern, and user-friendly interfaces for web and mobile.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+                                <p class="service-item-text">I make high-quality photos of any category at a professional level.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="experience">
+                    <h3 class="h3 experience-title">Achievements</h3>
+
+                    <ul class="experience-list has-scrollbar">
+                        <li class="experience-item">
+                            <div class="content-card" data-experience-item>
+                                <figure class="experience-icon-box">
+                                    <ion-icon name="trophy-outline"></ion-icon>
+                                </figure>
+                                
+                                <p class="experience-company">North Zone Cricket Team</p>
+                                <h4 class="h4 experience-item-title" data-experience-title>Uttarakhand Technical University, Dehradun, India</h4>
+                                <p class="experience-duration">2023 & 2024</p>
+
+                                <div class="experience-text" data-experience-text>
+                                    <p><strong></strong> • Selected as part of the <b>North Zone cricket team</b> for two consecutive years.
+                                                          <p>• Demonstrated teamwork, discipline, and consistency at a competitive level.</p> 
+                                
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="experience-item">
+                            <div class="content-card" data-experience-item>
+                                <figure class="experience-icon-box">
+                                    <ion-icon name="medal-outline"></ion-icon>
+                                </figure>
+
+                                <p class="experience-company">Batch Holder</p>
+                                <h4 class="h4 experience-item-title" data-experience-title>Tula's Institute , Dehradun</h4>
+                                <p class="experience-duration">2023 & 2024</p>
+
+                                <div class="experience-text" data-experience-text>
+                                    <p>• Selected as <b>Vice President</b> of the Sports Club.</p>
+                                    <p>• Selected as <b>Vice Captain</b> of the College Cricket Team.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="experience-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-icon-box">
+                                <ion-icon name="trophy-outline" width="80" data-modal-icon></ion-icon>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Full Stack Developer</h4>
+                            <p class="modal-company" data-modal-company>SnapGro</p>
+                            <time datetime="2025-06">June - August 2025</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p><strong>Description:</strong> Contributed to SnapGro's delivery platform by developing and optimizing core features that improved order management, rider coordination, and real-time communication.</p>
+                                
+                                <p><strong>Key Contributions:</strong></p>
+                                <ul>
+                                    <li>🚴‍♂️ <strong>Rider Panel Development:</strong> Built and optimized the Rider Panel with secure login, real-time tracking, and streamlined delivery assignment.</li>
+                                    <li>🔗 <strong>API Integration:</strong> Designed and integrated APIs to connect admin dashboards with riders, enabling dynamic order assignment and management.</li>
+                                    <li>📦 <strong>Order Workflow Enhancement:</strong> Improved the order delivery workflow, ensuring smooth data consistency across admins, merchants, and riders.</li>
+                                    <li>💬 <strong>Real-Time Chatbox:</strong> Implemented a chatbox feature to enable instant communication between riders and admins for coordination and issue resolution.</li>
+                                </ul>
+                                
+                                <p><strong>Impact:</strong></p>
+                                <ul>
+                                    <li>Enhanced efficiency of the delivery assignment system.</li>
+                                    <li>Improved communication and transparency across multiple user roles.</li>
+                                    <li>Strengthened platform reliability with real-time features.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </article>
+            
+            <!-- New Interactive Image Section -->
+            <article class="interactive-image" data-page="interactive">
+                <header>
+                    <h2 class="h2 article-title">Interactive Image Demo</h2>
+                </header>
+
+                <section class="image-demo">
+                    <div class="demo-container">
+                        <h3 class="h3 demo-title">Click the image to see the transformation!</h3>
+                        
+                        <div class="image-wrapper">
+                            <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" 
+                                 alt="Interactive Image" 
+                                 class="clickable-image" 
+                                 id="interactiveImage"
+                                 data-original-src="https://i.postimg.cc/JzBWVhW4/my-avatar.png"
+                                 data-clicked-src="https://i.postimg.cc/9fqYVvxh/logo.png">
+                        </div>
+                        
+                        <div class="image-info">
+                            <p class="image-status" id="imageStatus">Before Click: Original Image</p>
+                            <button class="reset-btn" id="resetBtn">Reset Image</button>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title" style="font-weight: 500;">VMSB Uttarakhand Technical University</h4>
+                            <span>2022 - Present</span>
+                            <p class="timeline-text">I am pursuing a Bachelor of Technology in Computer Science and Engineering at VMSB Uttarakhand Technical University , where I am developing a strong foundation in programming, problem-solving, and core computer science concepts.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title" style="font-weight: 500;">Jogamaya Memorial School</h4>
+                            <span>ISC 2020 - 2022</span>
+                            <p class="timeline-text">I completed my Class 12th in the Science stream with a score of 60%. My studies focused on subjects like Physics, Chemistry, and Mathematics, which helped me develop logical reasoning, problem-solving skills, and analytical thinking.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title" style="font-weight: 500;">Satyavishya Public School</h4>
+                            <span>ICSE 2019-2020</span>
+                            <p class="timeline-text">I completed my Class 10th in the Science stream with a score of 65% under the ICSE curriculum. This period helped me build a strong academic foundation and discipline, preparing me for higher education in the field of science and technology.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                           <h4 class="h4 timeline-item-title" style="font-weight: 500;">SnapGro</h4>
+                          <span >Full-Stack Developer Intern</span>
+                            <span>June - August 2025</span>
+                            <p class="timeline-text">Developed and optimized SnapGro’s Rider Panel using React.js and Supabase, implementing secure login, real-time tracking, API integration, and chatbox features while designing a colorful, user-friendly interface for better usability.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                           <h4 class="h4 timeline-item-title" style="font-weight: 500;">Bluestock Fintech</h4>
+                             <span>Frontend Developer Intern</span>
+                              <span>September - October 2024</span>
+                            <p class="timeline-text">At Bluestoke Fintech, I worked as a Frontend Developer Intern, building responsive and user-friendly web pages with HTML, CSS, and JavaScript. I developed core modules like Home, Sign In, and Sign Up, ensuring smooth design, accessibility, and functionality.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item" data-skill="web-design">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Backend</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                            <div class="skill-details" data-skill-details="web-design">
+                                <h4>Backend - 80%</h4>
+                                <p>Scalable servers, API integration, secure data, efficient logic.</p>
+                                <ul>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
+                                    <li>REST API Development</li>
+                                    <li>MongoDB</li>
+                                    <li>Supabase</li>
+                                    <li>MySQL</li>
+                                      <li>Java</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="skills-item" data-skill="graphic-design">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Frontend</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                            <div class="skill-details" data-skill-details="graphic-design">
+                                <h4>Frontend - 70%</h4>
+                                <p>Responsive interfaces, interactive designs, optimized performance.</p>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript (ES6+)</li>
+                                    <li>React.js</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="skills-item" data-skill="branding">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Tools & Platforms</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                            <div class="skill-details" data-skill-details="branding">
+                                <h4>Tools & Platforms - 90%</h4>
+                                <p>Version control, cloud deployment, testing.</p>
+                                <ul>
+                                    <li>Git & GitHub</li>
+                                    <li>Postman</li>
+                                    <li>VS Code</li>
+                                    <li>NPM</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="skills-item" data-skill="wordpress">
+                            <div class="title-wrapper">
+                                <h5 class="h5">UI/UX Design</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                            <div class="skill-details" data-skill-details="wordpress">
+                                <h4>UI/UX Design - 70%</h4>
+                                <p>Intuitive designs, user engagement.</p>
+                                <ul>
+                                    <li>Figma</li>
+                                    <li>Canva</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="project">
+                <header>
+                    <h2 class="h2 article-title">Project</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Frontend</button></li>
+                        <li class="filter-item"><button data-filter-btn>Backend</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Frontend</button></li>
+                            <li class="select-item"><button data-select-item>Backend</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="Backend">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/9FHW1krd/4427082.jpg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Voting App</h3>
+                                <p class="project-category">Backend</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="Frontend">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/QdRhznMk/weather-app-ui-template-editable-260nw-2297499097.jpg" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Weather App</h3>
+                                <p class="project-category">Frontend</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="Frontend">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/g258TdRS/01.jpg" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Currency Converter</h3>
+                                <p class="project-category">Frontend</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="Backend">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/CL8NDm2n/4185540.jpg" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Tour App</h3>
+                                <p class="project-category">Backend</p>
+                            </a>
+                        </li>
+
+                      
+                    </ul>
+                </section>
+            </article>
+
+            <article class="gallery " data-page="gallery">
+                <header>
+                    <h2 class="h2 article-title">Beyond Code</h2>
+                </header>
+
+                <section class="gallery-grid">
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/kMyVHHHd/IMG-20250826-WA0027.jpg" alt="Gallery Image 1" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Batch Holder</h3>
+                                    <p>Served as Vice President of Victree Sports Club</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/xTKPDGXM/Whats-App-Image-2025-08-26-at-23-02-29-d578a95c.jpg" alt="Gallery Image 2" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Inter Hostel Winner 2025</h3>
+                                    <p>Secured 1st place in Inter Hostel Championship.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/vZKT0kGz/IMG-2865.jpg" alt="Gallery Image 3" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Hackathon</h3>
+                                    <p>Secured 2nd Position in Hackathon.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/PJfdXQtJ/IMG-20250826-WA0025.jpg" alt="Gallery Image 4" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Northzone Cricket</h3>
+                                    <p>Selected for Northzone Cricket Tournament.</p>
+                                    <p>At University of Delhi</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/Hs7hJ7Vk/DSC4695.jpg" alt="Gallery Image 5" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Man of the Match</h3>
+                                    <p>Awarded Man of the Match in the tournament final.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/hGJzgg26/IMG-20250826-WA0030.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Northzone Certification 2023</h3>
+                                    <p>Earned certification for representing in Northzone Cricket.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                              <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/QtmHJtCB/IMG-20250826-WA0031.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Northzone Certification 2024</h3>
+                                    <p>Earned Second certification for representing in Northzone Cricket.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/bYBL8NYH/Whats-App-Image-2025-08-27-at-12-12-19-915936b3.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Captaincy and Leadership</h3>
+                                    <p>Served as a team captain, showcasing strong leadership skills.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                           <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/kGZMTtm5/IMG-20250826-WA0039.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Internship in Bangalore</h3>
+                                    <p>Visited Bangalore for my first internship experience.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                          <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/JzdwZWR1/Whats-App-Image-2025-08-27-at-11-32-35-a014fdc4.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Exploring Bangalore</h3>
+                                    <p>Explored Nandi Hills during my internship stay in Bangalore.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/1ztq7DxG/IMG-20250826-WA0034.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography</h3>
+                                    <p>Captured a memorable photographs</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                          <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/mgqLR9zN/IMG-20250826-WA0036.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography #1</h3>
+                                    <p>Explored the scenic beauty of Mussoorie, Uttarakhand.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                          <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/ydswz6Py/IMG-20250826-WA0037.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography #2</h3>
+                                    <p>Breathtaking view from the hilltop viewpoint.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                          <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/Jn9mCCsr/IMG-20250827-WA0004.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography #3</h3>
+                                    <p>Scenic landscapes of Dhanolti,  Uttarakhand</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        
+                          <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/PJpGS3yg/IMG-20250826-WA0041.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography #4</h3>
+                                    <p>A stunning top view from the hills.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        
+                          <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/2SJ0wkMS/IMG-20250826-WA0033.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography #5</h3>
+                                    <p>Scenic beauty of Landour, Uttarakhand.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                        
+                          <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/K8J2vM1s/IMG-20250827-WA0005.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography #6</h3>
+                                    <p>Architectural beauty of Forest Research Institute.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                         <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="https://i.postimg.cc/LX7fd5kJ/Whats-App-Image-2025-08-27-at-12-12-19-3018be89.jpg" alt="Gallery Image 6" loading="lazy">
+                                <div class="gallery-description">
+                                    <h3>Photography #7</h3>
+                                    <p>A beautiful view from my college campus.</p>
+                                </div>
+                            </figure>
+                        </li>
+
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                      
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.2777362589404!2d77.88339907437003!3d30.343055704363007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929fa74538275%3A0x3cb757428c691de3!2sTula&#39;s%20Institute!5e0!3m2!1sen!2sin!4v1756223884883!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                        <p id="contactStatus" style="margin-top:10px;color:var(--light-gray);"></p>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
